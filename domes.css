@@ -1,0 +1,1151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+background: -moz-linear-gradient(314deg, rgba(252,245,187,1) 0%, rgba(252,245,187,1) 47%, rgba(13,201,253,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(252,245,187,1)), color-stop(47%, rgba(252,245,187,1)), color-stop(100%, rgba(13,201,253,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(314deg, rgba(252,245,187,1) 0%, rgba(252,245,187,1) 47%, rgba(13,201,253,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(314deg, rgba(252,245,187,1) 0%, rgba(252,245,187,1) 47%, rgba(13,201,253,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(314deg, rgba(252,245,187,1) 0%, rgba(252,245,187,1) 47%, rgba(13,201,253,1) 100%); /* ie10+ */
+background: linear-gradient(136deg, rgba(252,245,187,1) 0%, rgba(252,245,187,1) 47%, rgba(13,201,253,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCF5BB', endColorstr='#0DC9FD',GradientType=0 ); /* ie6-9 */
+min-height: 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.background{
+	animation: fadein 2s ease;
+	-webkit-animation: fadein 2s ease;
+	-ms-animation: fadein 2s ease;
+	-moz-animation: fadein 2s ease;
+	-o-animation: fadein 2s ease;
+	background-repeat: no-repeat;
+}
+header{
+	position: relative;
+	z-index: 10;
+	padding: 30px;
+	line-height: 36px;
+}
+.header{
+  animation: headerFrames linear 4s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: headerFrames linear 4s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: headerFrames linear 4s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: headerFrames linear 4s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: headerFrames linear 4s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes headerFrames{
+  0% {
+    opacity:0;
+    transform:  ;
+  }
+  83% {
+    opacity:0;
+    transform:  ;
+  }
+  100% {
+    opacity:1;
+    transform:  ;
+  }
+}
+
+@-moz-keyframes headerFrames{
+  0% {
+    opacity:0;
+    -moz-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -moz-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  ;
+  }
+}
+
+@-webkit-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -webkit-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -webkit-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  ;
+  }
+}
+
+@-o-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -o-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -o-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  ;
+  }
+}
+
+@-ms-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -ms-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -ms-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  ;
+  }
+}
+.navigation{
+  animation: headerFrames linear 4s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: headerFrames linear 4s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: headerFrames linear 4s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: headerFrames linear 4s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: headerFrames linear 4s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes headerFrames{
+  0% {
+    opacity:0;
+    transform:  ;
+  }
+  83% {
+    opacity:0;
+    transform:  ;
+  }
+  100% {
+    opacity:1;
+    transform:  ;
+  }
+}
+
+@-moz-keyframes headerFrames{
+  0% {
+    opacity:0;
+    -moz-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -moz-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  ;
+  }
+}
+
+@-webkit-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -webkit-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -webkit-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  ;
+  }
+}
+
+@-o-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -o-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -o-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  ;
+  }
+}
+
+@-ms-keyframes headerFrames {
+  0% {
+    opacity:0;
+    -ms-transform:  ;
+  }
+  83% {
+    opacity:0;
+    -ms-transform:  ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  ;
+  }
+}
+body{
+	font-family: 'Arvo', serif;
+}
+h1{
+	font-family: 'Sail', cursive;
+	font-size: 52px;
+	text-align: center;
+	color: #5C793E;
+	letter-spacing: -1px;
+}
+h2{
+	font-family: 'Arvo', serif;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 10px;
+	color: #7D9465;
+}
+h3{
+	text-align: center;
+	font-family: 'Sail', serif;
+	font-size: 38px;
+	color: #5C793E;
+}
+h4{
+	font-family: 'Arvo', serf;
+	text-align: center;
+	width: 120px;
+	font-size: 20px;
+	background-color: rgba(250,250,250,0.7);
+	border-radius: 3px;
+	background-size: 15px 80px;
+	background-repeat: no-repeat;
+	margin-top: 26%;
+	margin-left: 61%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+/*	border-style: solid;
+	border-color: white;
+	border-width: 1.5px;
+	width: 120px;*/
+}
+h4 a{
+	text-decoration: none;
+	color: #335C33;
+}
+.h4{
+  animation: h4Frames linear 3s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: h4Frames linear 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: h4Frames linear 3s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: h4Frames linear 3s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: h4Frames linear 3s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes h4Frames{
+  0% {
+    opacity:0;
+    transform:  translate(500px,0px)  ;
+  }
+  79% {
+    opacity:0;
+    transform:  translate(500px,0px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes h4Frames{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(500px,0px)  ;
+  }
+  79% {
+    opacity:0;
+    -moz-transform:  translate(500px,0px)  ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes h4Frames {
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(500px,0px)  ;
+  }
+  79% {
+    opacity:0;
+    -webkit-transform:  translate(500px,0px)  ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes h4Frames {
+  0% {
+    opacity:0;
+    -o-transform:  translate(500px,0px)  ;
+  }
+  79% {
+    opacity:0;
+    -o-transform:  translate(500px,0px)  ;
+  }
+  100% {
+    opacity:1;
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes h4Frames {
+  0% {
+    opacity:0;
+    -ms-transform:  translate(500px,0px)  ;
+  }
+  79% {
+    opacity:0;
+    -ms-transform:  translate(500px,0px)  ;x
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+nav{
+	z-index: 99;
+	margin-left: auto;
+	margin-right: auto; 
+	left: 0;
+	right: 0;
+	overflow-x: hidden;
+	text-align: center;
+	width: 380px;
+	bottom: 10%;
+	position: fixed;
+	font-size: 16px;
+}
+li{
+	list-style-type: none;
+}
+nav a{
+	display: inline-block;
+	float: left;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: 	#2E532E;
+}
+a:hover{
+	color: #D65C33;
+}
+.square{
+	z-index: 0;
+	background-image: url(images/square.svg);
+	background-repeat: no-repeat;
+	animation: square-animation 750ms ease 1s backwards;
+	-webkit-animation: square-animation 750ms ease 1s backwards;
+  	-ms-animation: square-animation 750ms ease 1s backwards;
+  	-moz-animation: square-animation 750ms ease 1s backwards;
+  	-o-animation: square-animation 750ms ease 1s backwards;
+}
+.square{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+	top:40%;
+	width: 50%;
+	background-size: 100%
+}
+@media (max-width: 350px) {
+  .square{
+    height: 35%;
+  }
+}
+@media (min-width: 351px) and (max-width: 600px) {
+  .square {
+    height: 35%;
+  }
+}
+@media (min-width: 601px) {
+  .square {
+    height: 63%;
+  }
+}
+.square{
+  animation: square-animation linear 2s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: square-animation linear 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: square-animation linear 2s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: square-animation linear 2s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: square-animation linear 2s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes square-animation{
+  0% {
+    transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes square-animation{
+  0% {
+    -moz-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes square-animation {
+  0% {
+    -webkit-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes square-animation {
+  0% {
+    -o-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes square-animation {
+  0% {
+    -ms-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+.treec{
+	z-index: 3;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10%;
+	background-image: url(images/treec.svg);
+	background-size: 100%;
+	top: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+}
+@media (max-width: 350px) {
+  .treec{
+    height: 25%;
+  }
+}
+@media (min-width: 351px) and (max-width: 600px) {
+  .treec{
+    height: 35%;
+  }
+}
+@media (min-width: 601px) {
+  .treec{
+    height: 63%;
+  }
+}
+.treer{
+	z-index: 3;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 12%;
+	background-image: url(images/treer.svg);
+	background-size: 100%;
+	top: 40%;
+	margin-left: 55%;
+	left:0;
+	right:0;
+}
+@media (max-width: 350px) {
+  .treer{
+    height: 25%;
+  }
+}
+@media (min-width: 351px) and (max-width: 600px) {
+  .treer{
+    height: 35%;
+  }
+}
+@media (min-width: 601px) {
+  .treer{
+    height: 63%;
+  }
+}
+.treel{
+	z-index: 3;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 12%;
+	background-image: url(images/treel.svg);
+	background-size: 100%;
+	top: 40%;
+	margin-left: 35%;
+	left:0;
+	right:0;
+}
+@media (max-width: 350px) {
+  .treel{
+    height: 25%;
+  }
+}
+@media (min-width: 351px) and (max-width: 600px) {
+  .treel{
+    height: 35%;
+  }
+}
+@media (min-width: 601px) {
+  .treel{
+    height: 63%;
+  }
+}
+.treec{
+  animation: tree-animation linear 2.5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: tree-animation linear 2.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: tree-animation linear 2.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: tree-animation linear 2.5s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: tree-animation linear 2.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes tree-animation{
+  0% {
+    transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes tree-animation{
+  0% {
+    -moz-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -moz-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes tree-animation {
+  0% {
+    -webkit-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -webkit-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes tree-animation {
+  0% {
+    -o-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -o-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes tree-animation {
+  0% {
+    -ms-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -ms-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+.treer{
+  animation: tree-animation linear 2.5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: tree-animation linear 2.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: tree-animation linear 2.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: tree-animation linear 2.5s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: tree-animation linear 2.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes tree-animation{
+  0% {
+    transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes tree-animation{
+  0% {
+    -moz-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -moz-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes tree-animation {
+  0% {
+    -webkit-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -webkit-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes tree-animation {
+  0% {
+    -o-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -o-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes tree-animation {
+  0% {
+    -ms-transform:  scaleX(0.00) scaleY(0.00) ;
+  }
+  58% {
+    -ms-transform:  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+.treel{
+  animation: tree-animation linear 2.5s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: tree-animation linear 2.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: tree-animation linear 2.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: tree-animation linear 2.5s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: tree-animation linear 2.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes tree-animation{
+  0% {
+    transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  58% {
+    transform:  translate(0px,-100px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes tree-animation{
+  0% {
+    -moz-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  58% {
+    -moz-transform:  translate(0px,-100px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes tree-animation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  58% {
+    -webkit-transform:  translate(0px,-100px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes tree-animation {
+  0% {
+    -o-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  58% {
+    -o-transform:  translate(0px,-100px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes tree-animation {
+  0% {
+    -ms-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  58% {
+    -ms-transform:  translate(0px,-100px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+.domec{
+	z-index: 4;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10.5%;
+	background-image: url(images/domec.svg);
+	background-size: 100%;
+	top: 48%;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
+}
+@media (max-width: 40px) {
+  .domec{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .domec{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .domec{
+    height: 25%;
+  }
+}
+.domel{
+	z-index: 2;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 9%;
+	background-image: url(images/domel.svg);
+	background-size: 100%;
+	top: 40%;
+	margin-left: 35%;
+}
+@media (max-width: 40px) {
+  .domel{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .domel{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .domel{
+    height: 25%;
+  }
+}
+.domer{
+	z-index: 2;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 9%;
+	background-image: url(images/domer.svg);
+	background-size: 100%;
+	top: 40%;
+	margin-left: 55%;
+}
+@media (max-width: 40px) {
+  .domer{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .domer{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .domer{
+    height: 25%;
+  }
+}
+.domer, .domel, .domec{
+  animation: dome-animation linear 3.0s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  -webkit-animation: dome-animation linear 3.0s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: dome-animation linear 3.0s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: dome-animation linear 3.0s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: dome-animation linear 3.0s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes dome-animation{
+  0% {
+    transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  80% {
+    transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes dome-animation{
+  0% {
+    -moz-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  80% {
+    -moz-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes dome-animation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  80% {
+    -webkit-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes dome-animation {
+  0% {
+    -o-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  80% {
+    -o-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes dome-animation {
+  0% {
+    -ms-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    -ms-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+.bushc{
+	z-index: 3;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10%;
+	background-image: url(images/bushc.svg);
+	background-size: 100%;
+	top: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right:0;
+}
+@media (max-width: 40px) {
+  .bushc{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .bushc{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .bushc{
+    height: 25%;
+  }
+}
+.bushl{
+	z-index: 4;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 11%;
+	background-image: url(images/bushl.svg);
+	background-size: 100%;
+	top: 54%;
+	margin-left: 38%;
+}
+@media (max-width: 40px) {
+  .bushl{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .bushl{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .bushl{
+    height: 25%;
+  }
+}
+.bushr{
+	z-index: 4;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10%;
+	background-image: url(images/bushr.svg);
+	background-size: 100%;
+	top: 51%;
+	margin-left: 51%;
+}
+@media (max-width: 40px) {
+  .bushr{
+    height: 15%;
+  }
+}
+@media (min-width: 41px) and (max-width: 60px) {
+  .bushr{
+    height: 20%;
+  }
+}
+@media (min-width: 61px) {
+  .bushr{
+    height: 25%;
+  }
+}
+.bushr, .bushl, .bushc{
+  animation: bush-animation linear 3.0s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  -webkit-animation: bush-animation linear 3.0s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: bush-animation linear 3.0s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: bush-animation linear 3.0s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: bush-animation linear 3.0s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes bush-animation{
+  0% {
+    transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes bush-animation{
+  0% {
+    -moz-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    -moz-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes bush-animation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    -webkit-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes bush-animation {
+  0% {
+    -o-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    -o-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes bush-animation {
+  0% {
+    -ms-transform:  translate(0px,0px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  67% {
+    -ms-transform:  translate(0px,-90px)  scaleX(0.01) scaleY(0.01) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  scaleX(1.00) scaleY(1.00) ;
+  }
+}
